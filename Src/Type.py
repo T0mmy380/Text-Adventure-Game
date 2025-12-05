@@ -1,4 +1,4 @@
-from type_chart import TypeChart
+from Util.type_chart import TypeChart
 
 class Type:
 

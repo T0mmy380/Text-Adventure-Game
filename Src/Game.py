@@ -1,6 +1,6 @@
 from Util.monster_factory import MonsterFactory
-from damage_calc import DamageCalc
-from type_chart import TypeChart
+from Util.damage_calc import DamageCalc
+from Util.type_chart import TypeChart
 import random
 
 def main():
