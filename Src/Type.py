@@ -1,4 +1,4 @@
-from Src.Types.TypeChart import TypeChart
+from Src.TypeChart import TypeChart
 
 class Type:
 

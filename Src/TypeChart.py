@@ -7,9 +7,9 @@ class TypeChart:
     }
     Effectiveness = [
     #    G   W   F    #
-        [1, 0.5, 2],  # Grass
-        [2, 1, 0.5],  # Water
-        [0.5, 2, 1],  # Fire
+        [1,  2, 0.5],  # Grass
+        [0.5, 1, 2],  # Water
+        [2, 0.5, 1],  # Fire
     ]
 
     def __init__(self, chart= None):
