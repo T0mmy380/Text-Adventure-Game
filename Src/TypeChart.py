@@ -1,11 +1,12 @@
 class TypeChart:
+
     Enum = {
-        "grass" : 0,
-        "water" : 1,
-        "fire"  : 2,
+        "Grss" : 0,
+        "Water" : 1,
+        "Fire"  : 2,
     }
     Effectiveness = [
-        # G    W    F
+    #    G   W   F    #
         [1, 0.5, 2],  # Grass
         [2, 1, 0.5],  # Water
         [0.5, 2, 1],  # Fire
