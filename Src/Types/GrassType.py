@@ -4,7 +4,7 @@ class GrassType(Type):
 
     def __init__(self):
         super().__init__(
-            id=0,
+            id=4,
             name="Grass",
             color="#78C850",
             description="Grass type Pokémon are known for their connection to nature and plants. They often have abilities related to growth and healing.",

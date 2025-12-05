@@ -1,6 +1,23 @@
-grass
-water
+normal
 fire
+water
+electric
+grass
+ice
+fighting
+poison
+ground
+flying
+psychic
+bug
+rock
+ghost
+dragon
+dark
+steel
+fairy
+
+=========================
 
 type:
 id
@@ -11,10 +28,4 @@ weak
 typeBound
 classBound
 
-
 =========================
-
-    grass
-   /    *\*
- */*      \
-water----*fire

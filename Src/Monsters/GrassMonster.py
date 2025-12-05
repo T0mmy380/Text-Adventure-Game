@@ -6,7 +6,7 @@ class GrassMonster(Monster):
         super().__init__(
             id=0,
             name="Leafy",
-            type="Grass",
+            type="GRASS",
             health=100,
             attack_power=15,
             defense=10,

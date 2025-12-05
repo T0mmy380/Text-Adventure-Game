@@ -5,7 +5,7 @@ class Type:
     def __init__(self,id: int,  name: str, color: str, description: str,typeBound: int, classBound: int, typechart):
         self.id = id
         self.name = name
-        self.type = name
+        self.type = name.upper()
         self.colour = color
         self.description = description
         self.typeBound = typeBound

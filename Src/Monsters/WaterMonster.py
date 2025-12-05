@@ -6,7 +6,7 @@ class WaterMonster(Monster):
         super().__init__(
             id=1,
             name="AquaSerpent",
-            type="Water",
+            type="WATER",
             health=120,
             attack_power=25,
             defense=15,

@@ -6,7 +6,7 @@ class FireMonster(Monster):
         super().__init__(
             id=2,
             name="Flamester",
-            type="Fire",
+            type="FIRE",
             health=80,
             attack_power=25,
             defense=15,
