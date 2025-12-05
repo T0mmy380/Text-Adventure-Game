@@ -1,0 +1,25 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+
+
+/copilot.data.migration.agent.xml
+/copilot.data.migration.ask.xml
+/copilot.data.migration.ask2agent.xml
+/copilot.data.migration.edit.xml
+/discord.xml
+/misc.xml
+/modules.xml
+/Test_Adventure_Game.iml
+/vcs.xml
+
+# IntelliJ / JetBrains
+.idea/
+*.iml
+
+# Java build output (if used)
+target/
+out/
+
+# OS-specific
+.DS_Store
