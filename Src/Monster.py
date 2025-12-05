@@ -1,6 +1,6 @@
 class Monster:
 
-    def __init__(self, id, name, type, health, attack_power, defense, speed):
+    def __init__(self, id, name, type, health, attack_power, defense, speed, ability, move_list):
         self.id = id
         self.name = name
         self.type = type
@@ -8,7 +8,13 @@ class Monster:
         self.attack_power = attack_power
         self.defense = defense
         self.speed = speed
-
+        self.stat_boosts = {
+            'atk': 0,
+            'def': 0,
+            'spe': 0
+        }
+        self.ability = None
+        self.move_list = []
 
     info = lambda self: \
         (f"Monster ID: {self.id}"
@@ -16,7 +22,9 @@ class Monster:
          f"\nType: {self.type}"
          f"\nHealth: {self.health}"
          f"\nAttack Power: {self.attack_power}"
-         f"\nDefense: {self.defense}")
+         f"\nDefense: {self.defense}"
+         f"\nSpeed: {self.speed}"
+         f"\nMoves: {', '.join(self.move_list)}")
 
     def show_info(self):
         for line in self.info().split('\n'):
@@ -28,3 +36,5 @@ class Monster:
 
     def is_alive(self):
         return self.health > 0
+    
+    

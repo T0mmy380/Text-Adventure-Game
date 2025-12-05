@@ -10,5 +10,7 @@ class GrassMonster(Monster):
             health=100,
             attack_power=15,
             defense=10,
-            speed=12
+            speed=12,
+            ability="Overgrow",
+            move_list=["Vine Whip", "Razor Leaf", "Solar Beam"]
         )

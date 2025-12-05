@@ -10,5 +10,7 @@ class FireMonster(Monster):
             health=80,
             attack_power=25,
             defense=15,
-            speed=20
+            speed=20,
+            ability="Blaze",
+            move_list=["Flame Burst", "Heat Wave", "Fire Spin"]
         )
