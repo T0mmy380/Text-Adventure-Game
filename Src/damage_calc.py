@@ -11,8 +11,8 @@ class DamageCalc:
             base_damage = 0
 
         # Type effectiveness
-        effectiveness = type_chart.get_effectiveness(attacker.type, defender.type)
-        print(f"Type Effectiveness ({attacker.type} vs {defender.type}): {effectiveness}")
+        effectiveness = type_chart.get_effectiveness(attacker.types, defender.types)
+        print(f"Type Effectiveness ({attacker.types} vs {defender.types}): {effectiveness}")
         damage = int(base_damage * effectiveness)
         print("Total Damage after applying effectiveness:", damage)
 

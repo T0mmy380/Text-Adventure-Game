@@ -59,8 +59,6 @@ class TypeChart:
         
 
     def get_effectiveness(self, attacker_type: str, defender_type: str) -> float:
-        print(self.chart[attacker_type][defender_type])
-    
         return self.chart.get(attacker_type, {}).get(defender_type, 1.0)
     
     def get_types(self):
