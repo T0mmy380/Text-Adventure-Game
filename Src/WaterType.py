@@ -1,9 +1,17 @@
-class WaterType:
+from Src.Type import Type
 
-    def __init__(self, Type):
-        self.id = 1
-        self.name = "Water"
-        self.colour = "#6890F0"
-        self.description = "Water type Pokémon are known for their affinity with aquatic environments. They often have abilities related to water manipulation and swimming."
-        self.typeBound = 1
-        self.classBound = 1
+class WaterType(Type):
+
+
+
+    def __init__(self):
+        super().__init__(
+            id=1,
+            name="Water",
+            color="#F08030",
+            description="Water type Pokémon are known for their adaptability and versatility in battle. They often have moves that involve water-based attacks and can thrive in aquatic environments.",
+            typeBound=1,
+            classBound=1,
+            typechart=None  # Assuming typechart is handled elsewhere
+        )
+
