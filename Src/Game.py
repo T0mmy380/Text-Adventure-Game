@@ -30,7 +30,7 @@ def main():
 
     # Battle loop
     # Who attacks first
-    print("Choose who attacks first:")
+    print("\nChoose who attacks first:")
     print("0: You")
     print("1: Enemy")
     first = int(input("Enter the number of your choice: "))

@@ -21,6 +21,6 @@ class Type:
          f"\nType Bound: {self.typeBound}"
          f"\nClass Bound: {self.classBound}")
 
-    def show_info(info):
-        for line in info.info().split('\n'):
+    def show_info(self):
+        for line in self.info().split('\n'):
             print(line)

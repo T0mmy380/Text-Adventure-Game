@@ -18,8 +18,8 @@ class Monster:
          f"\nAttack Power: {self.attack_power}"
          f"\nDefense: {self.defense}")
 
-    def show_info(info):
-        for line in info.info().split('\n'):
+    def show_info(self):
+        for line in self.info().split('\n'):
             print(line)
 
     def attack(self, target):
