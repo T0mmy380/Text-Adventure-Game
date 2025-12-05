@@ -13,13 +13,14 @@
 /Test_Adventure_Game.iml
 /vcs.xml
 
-# IntelliJ / JetBrains
-.idea/
-*.iml
-
 # Java build output (if used)
 target/
 out/
 
 # OS-specific
 .DS_Store
+
+# Python-specific
+*.pyc
+.venv/
+__pycache__/
