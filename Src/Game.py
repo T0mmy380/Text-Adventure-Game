@@ -18,6 +18,18 @@ def main():
     print("\nYou send out your monster!")
     monster2.show_info()
     
+    print("\n")
+    monster1.stat_change('atk', 7)
+    monster2.stat_change('def', -6)
+    print("\n")
+    
+    
+    monster1.show_info()
+    print("\n")
+    
+    monster2.show_info()
+    
+    """
     print("\nWho attacks first?")
     print("0: Your Monster")
     print("1: Wild Monster")
@@ -28,7 +40,7 @@ def main():
         attacker, defender = monster1, monster2
     
     dmgCalc.calculate_damage(attacker, defender, chart)
-    
+    """
     
     
     
