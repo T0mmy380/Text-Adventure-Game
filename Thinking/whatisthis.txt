@@ -1,0 +1,6 @@
+A *monster catching game?*
+
+battle and game logic, and semi linear fixed story.
+
+
+;)
