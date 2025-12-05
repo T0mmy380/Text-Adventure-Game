@@ -15,6 +15,7 @@ class Monster:
             'acc': 0,
             'eva': 0
         }
+        self.status = []
         self.ability = ability                
         self.move_list = list(move_list)      
 
@@ -25,6 +26,7 @@ class Monster:
             f"\nTypes: {self.types}"
             f"\nHP: {self.health} ATK: {self.attack_power} DEF: {self.defense} SPE: {self.speed}"
             f"\nStat Multipliers: {self.stat_mult}"
+            f"\nStatuses: {self.status}"
             f"\nAbility: {self.ability}"
             f"\nMoves: {', '.join(self.move_list)}"
         )
@@ -54,3 +56,10 @@ class Monster:
         elif self.stat_mult[stat] < -6:
             print(f"{self.name}'s {stat} can't go lower!")
             self.stat_mult[stat] = -6
+        
+    def apply_status(self, status: str):
+        if status not in self.status:
+            self.status.append(status)
+            print(f"{self.name} is now affected by {status}.")
+        else:
+            print(f"{self.name} is already affected by {status}.")

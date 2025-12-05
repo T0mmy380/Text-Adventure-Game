@@ -20,7 +20,9 @@ def main():
     
     print("\n")
     monster1.stat_change('atk', 7)
+    monster1.apply_status('Poison')
     monster2.stat_change('def', -6)
+    monster2.apply_status('Burn')
     print("\n")
     
     
