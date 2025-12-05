@@ -1,8 +1,8 @@
-from TypeChart import TypeChart
-from DamageCalc import DamageCalc
+from type_chart import TypeChart
+from damage_calc import DamageCalc
 import random
 
-from Util.MonsterDex import MonsterDex
+from Util.monster_dex import MonsterDex
 
 def main():
 
@@ -43,8 +43,6 @@ def main():
     #attacker.show_info()
     print("\nEnemy Monster:")
     #defender.show_info()
-    
-    dex.list_monsters()
     
     
 

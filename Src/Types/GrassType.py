@@ -1,4 +1,4 @@
-from Type import Type
+from type import Type
 
 class GrassType(Type):
 
