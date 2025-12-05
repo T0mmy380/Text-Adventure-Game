@@ -1,9 +1,8 @@
 {
-  "normal_hopper": {
+  "normal_monster": {
     "id": 1,
     "name": "Plainskip",
     "type": "NORMAL",
-    "type_id": 0,
     "health": 48,
     "attack_power": 12,
     "defense": 9,
@@ -11,11 +10,10 @@
     "ability": "Steady Gait",
     "move_list": ["Quick Jab", "Body Slam", "Rest"]
   },
-  "fire_starter": {
+  "fire_monster": {
     "id": 2,
     "name": "Flarecub",
     "type": "FIRE",
-    "type_id": 1,
     "health": 50,
     "attack_power": 15,
     "defense": 8,
@@ -23,11 +21,10 @@
     "ability": "Blaze Heart",
     "move_list": ["Ember Shot", "Scratch", "Howl"]
   },
-  "water_starter": {
+  "water_monster": {
     "id": 3,
     "name": "Aquapup",
     "type": "WATER",
-    "type_id": 2,
     "health": 52,
     "attack_power": 13,
     "defense": 10,
@@ -35,11 +32,10 @@
     "ability": "Torrent Surge",
     "move_list": ["Bubble Pop", "Tackle", "Tail Whip"]
   },
-  "sparklet": {
+  "electric_monster": {
     "id": 4,
     "name": "Voltlet",
     "type": "ELECTRIC",
-    "type_id": 3,
     "health": 44,
     "attack_power": 16,
     "defense": 7,
@@ -47,11 +43,10 @@
     "ability": "Static Charge",
     "move_list": ["Shock Pulse", "Tail Slap", "Charge"]
   },
-  "leaflet": {
+  "grass_monster": {
     "id": 5,
     "name": "Budwing",
     "type": "GRASS",
-    "type_id": 4,
     "health": 54,
     "attack_power": 12,
     "defense": 11,
@@ -59,11 +54,10 @@
     "ability": "Photosynthesis",
     "move_list": ["Vine Whip", "Growl", "Leaf Shield"]
   },
-  "frostpup": {
+  "ice_monster": {
     "id": 6,
     "name": "Glacierpup",
     "type": "ICE",
-    "type_id": 5,
     "health": 46,
     "attack_power": 14,
     "defense": 10,
@@ -71,11 +65,10 @@
     "ability": "Frost Fur",
     "move_list": ["Ice Shard", "Bite", "Cold Stare"]
   },
-  "pummeler": {
+  "fighting_monster": {
     "id": 7,
     "name": "Rumbleke",
     "type": "FIGHTING",
-    "type_id": 6,
     "health": 58,
     "attack_power": 17,
     "defense": 12,
@@ -83,11 +76,10 @@
     "ability": "Iron Fist",
     "move_list": ["Close Kick", "Headbutt", "Taunt"]
   },
-  "venomtail": {
+  "poison_monster": {
     "id": 8,
     "name": "Toxisnap",
     "type": "POISON",
-    "type_id": 7,
     "health": 46,
     "attack_power": 13,
     "defense": 9,
@@ -95,11 +87,10 @@
     "ability": "Corrosive Skin",
     "move_list": ["Toxic Sting", "Bite", "Acid Spray"]
   },
-  "digger": {
+  "ground_monster": {
     "id": 9,
     "name": "Burrowox",
     "type": "GROUND",
-    "type_id": 8,
     "health": 60,
     "attack_power": 14,
     "defense": 14,
@@ -107,11 +98,10 @@
     "ability": "Sand Armor",
     "move_list": ["Mud Slap", "Headbutt", "Dig"]
   },
-  "skyrider": {
+  "flying_monster": {
     "id": 10,
     "name": "Aerialia",
     "type": "FLYING",
-    "type_id": 9,
     "health": 42,
     "attack_power": 13,
     "defense": 8,
@@ -119,11 +109,10 @@
     "ability": "Feather Glide",
     "move_list": ["Gust", "Peck", "Quickstep"]
   },
-  "mindling": {
+  "psychic_monster": {
     "id": 11,
     "name": "Psylit",
     "type": "PSYCHIC",
-    "type_id": 10,
     "health": 40,
     "attack_power": 15,
     "defense": 8,
@@ -131,11 +120,10 @@
     "ability": "Calm Mind",
     "move_list": ["Psybeam", "Confuse Ray", "Meditate"]
   },
-  "crawlbug": {
+  "bug_monster": {
     "id": 12,
     "name": "Nimbug",
     "type": "BUG",
-    "type_id": 11,
     "health": 44,
     "attack_power": 11,
     "defense": 9,
@@ -143,11 +131,10 @@
     "ability": "Swarm Instinct",
     "move_list": ["Bite", "String Shot", "Fury Swipes"]
   },
-  "geomite": {
+  "rock_monster": {
     "id": 13,
     "name": "Shardback",
     "type": "ROCK",
-    "type_id": 12,
     "health": 62,
     "attack_power": 13,
     "defense": 16,
@@ -155,11 +142,10 @@
     "ability": "Solid Rock",
     "move_list": ["Rock Throw", "Protect", "Tackle"]
   },
-  "shade": {
+  "ghost_monster": {
     "id": 14,
     "name": "Nocturny",
     "type": "GHOST",
-    "type_id": 13,
     "health": 38,
     "attack_power": 14,
     "defense": 8,
@@ -167,11 +153,10 @@
     "ability": "Ethereal",
     "move_list": ["Shadow Sneak", "Haunt", "Wisp Touch"]
   },
-  "wyrmling": {
+  "dragon_monster": {
     "id": 15,
     "name": "Emberdrake",
     "type": "DRAGON",
-    "type_id": 14,
     "health": 66,
     "attack_power": 18,
     "defense": 13,
@@ -179,11 +164,10 @@
     "ability": "Dragon's Breath",
     "move_list": ["Dragon Claw", "Wing Flare", "Roar"]
   },
-  "nightstalker": {
+  "dark_monster": {
     "id": 16,
     "name": "Umbrage",
     "type": "DARK",
-    "type_id": 15,
     "health": 44,
     "attack_power": 15,
     "defense": 9,
@@ -191,11 +175,10 @@
     "ability": "Shadow Veil",
     "move_list": ["Bite", "Sneak Attack", "Howl"]
   },
-  "ironpup": {
+  "steel_monster": {
     "id": 17,
     "name": "Ferrotec",
     "type": "STEEL",
-    "type_id": 16,
     "health": 58,
     "attack_power": 14,
     "defense": 17,
@@ -203,11 +186,10 @@
     "ability": "Magnetic Shell",
     "move_list": ["Metal Claw", "Tackle", "Harden"]
   },
-  "glimmer": {
+  "fairy_monster": {
     "id": 18,
     "name": "Faelette",
     "type": "FAIRY",
-    "type_id": 17,
     "health": 46,
     "attack_power": 12,
     "defense": 11,
