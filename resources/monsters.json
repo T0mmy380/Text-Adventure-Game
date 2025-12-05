@@ -1,5 +1,5 @@
 {
-  "normal_monster": {
+  "plainskip": {
     "id": 1,
     "name": "Plainskip",
     "type": "NORMAL",
@@ -10,7 +10,7 @@
     "ability": "Steady Gait",
     "move_list": ["Quick Jab", "Body Slam", "Rest"]
   },
-  "fire_monster": {
+  "flarecub": {
     "id": 2,
     "name": "Flarecub",
     "type": "FIRE",
@@ -21,7 +21,7 @@
     "ability": "Blaze Heart",
     "move_list": ["Ember Shot", "Scratch", "Howl"]
   },
-  "water_monster": {
+  "aquapup": {
     "id": 3,
     "name": "Aquapup",
     "type": "WATER",
@@ -32,7 +32,7 @@
     "ability": "Torrent Surge",
     "move_list": ["Bubble Pop", "Tackle", "Tail Whip"]
   },
-  "electric_monster": {
+  "voltlet": {
     "id": 4,
     "name": "Voltlet",
     "type": "ELECTRIC",
@@ -43,7 +43,7 @@
     "ability": "Static Charge",
     "move_list": ["Shock Pulse", "Tail Slap", "Charge"]
   },
-  "grass_monster": {
+  "budwing": {
     "id": 5,
     "name": "Budwing",
     "type": "GRASS",
@@ -54,7 +54,7 @@
     "ability": "Photosynthesis",
     "move_list": ["Vine Whip", "Growl", "Leaf Shield"]
   },
-  "ice_monster": {
+  "glacierpup": {
     "id": 6,
     "name": "Glacierpup",
     "type": "ICE",
@@ -65,7 +65,7 @@
     "ability": "Frost Fur",
     "move_list": ["Ice Shard", "Bite", "Cold Stare"]
   },
-  "fighting_monster": {
+  "rumbleke": {
     "id": 7,
     "name": "Rumbleke",
     "type": "FIGHTING",
@@ -76,7 +76,7 @@
     "ability": "Iron Fist",
     "move_list": ["Close Kick", "Headbutt", "Taunt"]
   },
-  "poison_monster": {
+  "toxisnap": {
     "id": 8,
     "name": "Toxisnap",
     "type": "POISON",
@@ -87,7 +87,7 @@
     "ability": "Corrosive Skin",
     "move_list": ["Toxic Sting", "Bite", "Acid Spray"]
   },
-  "ground_monster": {
+  "burrowox": {
     "id": 9,
     "name": "Burrowox",
     "type": "GROUND",
@@ -98,7 +98,7 @@
     "ability": "Sand Armor",
     "move_list": ["Mud Slap", "Headbutt", "Dig"]
   },
-  "flying_monster": {
+  "aerialia": {
     "id": 10,
     "name": "Aerialia",
     "type": "FLYING",
@@ -109,7 +109,7 @@
     "ability": "Feather Glide",
     "move_list": ["Gust", "Peck", "Quickstep"]
   },
-  "psychic_monster": {
+  "psylit": {
     "id": 11,
     "name": "Psylit",
     "type": "PSYCHIC",
@@ -120,7 +120,7 @@
     "ability": "Calm Mind",
     "move_list": ["Psybeam", "Confuse Ray", "Meditate"]
   },
-  "bug_monster": {
+  "nimbug": {
     "id": 12,
     "name": "Nimbug",
     "type": "BUG",
@@ -131,7 +131,7 @@
     "ability": "Swarm Instinct",
     "move_list": ["Bite", "String Shot", "Fury Swipes"]
   },
-  "rock_monster": {
+  "shardback": {
     "id": 13,
     "name": "Shardback",
     "type": "ROCK",
@@ -142,7 +142,7 @@
     "ability": "Solid Rock",
     "move_list": ["Rock Throw", "Protect", "Tackle"]
   },
-  "ghost_monster": {
+  "nocturny": {
     "id": 14,
     "name": "Nocturny",
     "type": "GHOST",
@@ -153,7 +153,7 @@
     "ability": "Ethereal",
     "move_list": ["Shadow Sneak", "Haunt", "Wisp Touch"]
   },
-  "dragon_monster": {
+  "emberdrake": {
     "id": 15,
     "name": "Emberdrake",
     "type": "DRAGON",
@@ -164,7 +164,7 @@
     "ability": "Dragon's Breath",
     "move_list": ["Dragon Claw", "Wing Flare", "Roar"]
   },
-  "dark_monster": {
+  "umbrage": {
     "id": 16,
     "name": "Umbrage",
     "type": "DARK",
@@ -175,7 +175,7 @@
     "ability": "Shadow Veil",
     "move_list": ["Bite", "Sneak Attack", "Howl"]
   },
-  "steel_monster": {
+  "ferrotec": {
     "id": 17,
     "name": "Ferrotec",
     "type": "STEEL",
@@ -186,7 +186,7 @@
     "ability": "Magnetic Shell",
     "move_list": ["Metal Claw", "Tackle", "Harden"]
   },
-  "fairy_monster": {
+  "faelette": {
     "id": 18,
     "name": "Faelette",
     "type": "FAIRY",
