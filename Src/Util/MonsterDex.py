@@ -1,13 +1,8 @@
-from Monsters.FireMonster import FireMonster
-from Monsters.GrassMonster import GrassMonster
-from Monsters.WaterMonster import WaterMonster
 
 class MonsterDex:
 
     MONSTER_DEX = [
-        GrassMonster(),
-        WaterMonster(),
-        FireMonster()
+
     ]
 
     @classmethod
