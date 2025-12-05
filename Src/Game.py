@@ -1,9 +1,8 @@
-from Src.TypeChart import TypeChart
+from TypeChart import TypeChart
 from DamageCalc import DamageCalc
 import random
 
-from Src.Util.MonsterDex import MonsterDex
-
+from Util.MonsterDex import MonsterDex
 
 def main():
 

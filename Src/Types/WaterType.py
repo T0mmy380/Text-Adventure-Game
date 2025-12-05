@@ -1,8 +1,6 @@
-from Src.Type import Type
+from Type import Type
 
 class WaterType(Type):
-
-
 
     def __init__(self):
         super().__init__(

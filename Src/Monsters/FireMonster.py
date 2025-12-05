@@ -1,4 +1,4 @@
-from Src.Monster import Monster
+from Monster import Monster
 
 class FireMonster(Monster):
 

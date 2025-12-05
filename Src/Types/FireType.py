@@ -1,4 +1,4 @@
-from Src.Type import Type
+from Type import Type
 
 class FireType(Type):
 

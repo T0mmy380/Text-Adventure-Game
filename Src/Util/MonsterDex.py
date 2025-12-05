@@ -1,7 +1,6 @@
-from Src.Monsters.FireMonster import FireMonster
-from Src.Monsters.GrassMonster import GrassMonster
-from Src.Monsters.WaterMonster import WaterMonster
-
+from Monsters.FireMonster import FireMonster
+from Monsters.GrassMonster import GrassMonster
+from Monsters.WaterMonster import WaterMonster
 
 class MonsterDex:
 
