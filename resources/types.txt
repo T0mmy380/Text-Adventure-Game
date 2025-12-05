@@ -1,0 +1,20 @@
+grass
+water
+fire
+
+type:
+id
+name
+colour
+description
+weak
+typeBound
+classBound
+
+
+=========================
+
+    grass
+   /    *\*
+ */*      \
+water----*fire
